@@ -13,10 +13,15 @@ PostgreSQL 13
 
 #### Data Source:
 departments.csv
+
 dept_emp.csv
+
 dept_manager.csv
+
 employees.csv
+
 salaries.csv
+
 titles.csv
 
 ## SUMMARY
