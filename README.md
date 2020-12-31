@@ -4,7 +4,7 @@ SQL Identifying data relationships
 Pewlett-Hackard-Analysis
 
 
-### Resources
+## Resources
 
 #### Software:
 PostgreSQL 13
@@ -17,29 +17,40 @@ employees.csv
 salaries.csv
 titles.csv
 
+## SUMARY
+Pewlett-Hackard is a large company that has been around for a long time. As a number of employees will be leaving for retiremnt, Pewlett-Hackard is looking towards the future and have asked me to organize their data. Pewlett-Hackard will be offering retiremnt packages for those who are eligable and in addition want to insure that as employees leave the company those positions will get filled. 
 
-Pewlett-Hackard-Analysis After the initial report it has been brought to the attention of the manager that many of the employees are quickly approaching retirement. To get ready for the “silver tsunami” the manager wants to know how many people with each title are going to be retiring soon. With a large portion of their workforce stepping down they will need a lot of new workers. To make that transition as easy as possible we will need a mentorship program to have some retirees to help in a part-time capacity to train the new generation. I would break up some of the more complicated steps because it would be hard to read and comprehend as one block. When I needed to do a filtered join, I would just filter what I needed and then do the join instead of one block.Some of the error messages were not helpful and made troubleshooting hard because it was not clear which part was throwing an error. I had trouble using the SELECT INTO function, it took a while to get to work. We have built a breakdown of how many people with each title are going to be retiring soon. The table indicates that we are going to be losing 26,000 in just senior engineers and senior staff to retirement. Of those we have made a list of 1,500 that are eligible to continue their role with us as a mentor to train our new recruits. We could use each employee’s salary as a standin for how well they perform, and then order our mentorship list from highest to lowest salary. If the capacity for the number of mentors is a concern we would have an interest in prioritizing the highest salaries.
+## OBJECTIVES
+
+1. Create a dataframe for those emplyees who are eligable for retirement based on the company critiea.  
+2. Determine how many employees will be retiring, and specifically how many employees from each devision.
+3. Determine which employees will meet the criteria to create a mentorship program to help fasciliate a smoother transition as new employees will be filling jobs from those who retired.
+
+In order to organize and join the data I was given from the 6 csv files, my first step was to created a visial chart flow. The following chart helped me visualize the way the data sets correspond to each other and helped me identify common columns, unique data, and primary keys. 
+
+
+
 
 Findings on retiring employees by titles
 
 72458 employees are ready to retire from Pewlett-Hackard
 The portion of ready to retire employees is about 22% of total employees
 The number of retiring employees have:
-1090 employees are Assistant Engineer
-9285 employees are Engineer
-2 employees are Manager
-25916 employees are Senior Engineer
-24926 employees are Senior Staff
-7636 employees are Staff
-3603 employees are Technique Leader
+1090 employees are Assistant Engineers
+9285 employees are Engineers
+2 employees are Managers
+25916 employees are Senior Engineers
+24926 employees are Senior Staffs
+7636 employees are Staffs
+3603 employees are Technique Leaders
 Total salary of these employees is 3.8 billions per year , the average salary is 52896 per year
 Findings on mentorship eligibility
 
-There are 1708 employees are eligible to be mentor
+There are 1708 employees are eligible to be mentors.
 Among these employees there are:
-30 employees are Assistant Engineer
-209 employees are Engineer
-586 employees are Senior Engineer
-632 employees are Senior Staff
+30 employees are Assistant Engineers
+209 employees are Engineers
+586 employees are Senior Engineers
+632 employees are Senior Staffs
 167 employees are Staff
-84 employees are Technique Leader
+84 employees are Technique Leaders
