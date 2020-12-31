@@ -70,7 +70,7 @@ There are several new questions to be asked
   4. Which devisions dont have mentors?
   
   
-One aspect I would look into is determining a ratio between the mentorship and the amount retired for each title to determine how many new emplyees would study under one mentor. This of course would also depend on wether or not HR has decided to fill each position in each department for every emplyee retired. 
+One aspect I would look into is determining a ratio between the mentorship and the amount retired emplyees for each title in order to determine how many new emplyees would study under one mentor. This of course would also depend on wether or not HR has decided to fill each position in each department for every emplyee retired. 
 In addtion our data shows that the two managers retiring do not have corresponding qulaifying mentors. 
 Another aspect to look into would be the shift in salaries as new employees will come into fill positions for those who retired. Perhaps raises and promotions may offset these company savings. 
 
