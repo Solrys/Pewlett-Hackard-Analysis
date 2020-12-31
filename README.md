@@ -28,7 +28,7 @@ Pewlett-Hackard is a large company that has been around for a long time. As a nu
 
 In order to organize and join the data I was given from the 6 csv files, my first step was to created a visial chart flow. The following chart helped me visualize the way the data sets correspond to each other and helped me identify common columns, unique data, and primary keys. 
 
-[(!ED)(https://github.com/Solrys/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)]
+[[pic!](https://github.com/Solrys/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)]
 
 
 
